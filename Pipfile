@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymongo = {extras = ["srv"], version = "*"}
+requests = "*"
+certifi = "*"
+bs4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
